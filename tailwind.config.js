@@ -10,11 +10,11 @@ module.exports = {
         "z-testo": "#7d7c7c",
       },
       backgroundImage: {
-        "z-shake": "../assets/shake.jpg",
-        "z-utente" : "../assets/User.png"
+        "z-shake":  "url('./assets/shake.jpg')",
+        "z-utente" : "url('./assets/User.png')"
       },
 
-      fontFamily: {
+      fontFamily: { 
         "z-titolo": "Aladin, cursive",
         "z-testi": "Nunito, sans-serif",
       },
